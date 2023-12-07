@@ -15,7 +15,7 @@ public class Main {
 
         inMemoryDB.begin_transaction();
         inMemoryDB.put("A", 5);
-        System.out.println(inMemoryDB.get("A")); // should return null because not updates not committed yet
+        System.out.println(inMemoryDB.get("A")); // should return null because updates not committed yet
 
         inMemoryDB.put("A", 6);
         inMemoryDB.commit();
