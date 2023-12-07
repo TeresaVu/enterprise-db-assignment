@@ -29,9 +29,6 @@ public class InMemoryDB {
     }
 
     public Integer get(String key) {
-        if (inTransaction && transactionData.containsKey(key)) {
-            return transactionData.get(key);
-        }
         return data.get(key);
     }
 
