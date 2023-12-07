@@ -1,5 +1,6 @@
 Pre-requisites:
 - Java environment
+
 How to run:
 1. Clone the repository using "git clone https://github.com/TeresaVu/enterprise-db-assignment.git"
 2. Run Main.java
